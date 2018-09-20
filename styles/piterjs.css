@@ -1,0 +1,55 @@
+:root {
+  --color-brand: rgba(247, 223, 30, 1);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: #303b40;
+}
+
+.shower,
+.slide {
+  font-family: "Fira Sans", "Verdana", sans-serif;
+  color: var(--color-white);
+  background: var(--color-black);
+}
+
+.slide a {
+  color: #f7df1e;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(247, 223, 30, 0.15);
+  background-image: none;
+  transition: text-decoration-color .2s ease-in-out;
+  animation-duration: 1s;
+  animation-name: links;
+  animation-iteration-count: infinite;
+}
+.slide a:hover {
+  text-decoration-color: rgba(247, 223, 30, 0.35);
+}
+
+.slide h2,
+.caption h1 {
+  font-family: "Fira Sans", "Verdana", sans-serif;
+}
+
+.slide h2 {
+  color: #f7df1e;
+  font-size: 60px;
+}
+
+.slide.black h2 {
+  color: var(--color-white);
+  text-shadow: 0 0 3px #000;
+}
+
+.slide li:before {
+  color: #f7df1e;
+}
+
+.progress::before {
+  background-color: #f7df1e;
+}
+
+@keyframes links {
+    0% {text-decoration-color: rgba(247, 223, 30, 0.15);}
+    50% {text-decoration-color: rgba(247, 223, 30, 0.35);}
+    100% {text-decoration-color: rgba(247, 223, 30, 0.15);}
+}
