@@ -2,17 +2,37 @@
   --slide-ratio: calc(16 / 9);
 }
 
-.slide.intro {
-  background-color: #f7df1e;
-  color: var(--color-black);
+.slide.intro .blacked {
+  padding: 0 .2em;
+  background-color: #fff;
+  color: #000;
 }
 .slide.intro h2 {
+  font-size: 100px;
+}
+.slide.intro .number {
+  display: flex;
+  align-items: center;
+}
+.slide.intro .number img {
+  margin-top: -100px;
+  margin-left: -50px;
+}
+.slide.intro .number p {
+  margin-bottom: -10px;
+  font-size: 190px;
+  font-weight: bold;
   color: #000;
-  font-size: 120px;
-  font-weight: 800;
 }
 .slide.intro .logo {
   max-height: 60%;
+}
+
+.slide.burnout {
+  background-color: #f7df1e;
+  background-image: url('../images/this-is-fine_cover.jpg');
+  background-size: cover;
+  color: var(--color-black);
 }
 
 .slide.we-are .raising-hand {
@@ -36,6 +56,25 @@
 .slide.first-time .raising-hand {
   width: 25%;
 } 
+
+.slide.wargaming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slide.wargaming .name {
+  position: absolute;
+  top: 2em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 48px;
+}
+.slide.wargaming .logo {
+  width: 75%;
+  height: auto;
+}
 
 .slide.socials li:before {
   color: transparent;
