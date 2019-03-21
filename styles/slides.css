@@ -2,6 +2,7 @@
   --slide-ratio: calc(16 / 9);
 }
 
+/* intro slide */
 .slide.intro .blacked {
   padding: 0 .2em;
   background-color: #fff;
@@ -28,6 +29,7 @@
   max-height: 60%;
 }
 
+/* burnout slide */
 .slide.burnout {
   background-color: #f7df1e;
   background-image: url('../images/this-is-fine_cover.jpg');
@@ -35,18 +37,7 @@
   color: var(--color-black);
 }
 
-.slide.we-are .raising-hand {
-  display: inline-block;
-  vertical-align: middle;
-  height: 2em;
-}
-
-.slide.who-wants .raising-hand {
-  display: inline-block;
-  vertical-align: middle;
-  height: 1em;
-}
-
+/* first time slide */
 .slide.first-time {
   padding-left: 25%;
 }
@@ -57,13 +48,14 @@
   width: 25%;
 } 
 
-.slide.wargaming {
+/* image focusing slide template */
+.slide.image-focusing {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.slide.wargaming .name {
+.slide.image-focusing .name {
   position: absolute;
   top: 2em;
   left: 0;
@@ -71,16 +63,30 @@
   text-align: center;
   font-size: 48px;
 }
-.slide.wargaming .logo {
+.slide.image-focusing .image {
   width: 75%;
   height: auto;
 }
 
-.slide.socials li:before {
+/* socials icons */
+.socials li:before {
   color: transparent;
 }
-.slide.socials .social-icon {
+.socials .social-icon {
   width: 30px;
   height: 30px;
   vertical-align: text-bottom;
+}
+
+/* raising hand icon */
+.raising-hand {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.raising-hand--base {
+  height: 1em;
+}
+.raising-hand--big {
+  height: 2em;
 }
