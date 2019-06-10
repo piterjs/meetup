@@ -1,4 +1,5 @@
 {
+  "private": true,
   "scripts": {
     "pdf": "shower pdf",
     "serve": "shower serve",
@@ -6,11 +7,24 @@
     "prepare": "shower prepare",
     "publish": "shower publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piterjs/meetup.git"
+  },
+  "engines": {
+    "node": "^8"
+  },
+  "author": "Andrew Gurylev <andrew@gurylev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piterjs/meetup/issues"
+  },
+  "homepage": "https://piterjs.github.io/meetup/",
   "dependencies": {
-    "shower-core": "^2.1.0",
-    "shower-ribbon": "^3.1.2"
+    "@shower/ribbon": "^3.2.2",
+    "shower-core": "^2.1.0"
   },
   "devDependencies": {
-    "shower-cli": "^0.2.2"
+    "@shower/cli": "^0.2.8"
   }
 }
