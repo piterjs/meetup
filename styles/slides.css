@@ -9,7 +9,7 @@
 /* intro slide */
 .slide.intro {
   background: url(../images/corner-top-left.svg) no-repeat, url(../images/corner-bottom-right.svg) bottom right no-repeat;
-  background-size: 20%, 20%;
+  background-size: 25%, 25%;
   background-color: #fff;
 }
 .slide.intro h2 {
@@ -75,13 +75,19 @@
 }
 
 /* socials icons */
+.socials li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
 .socials li:before {
   color: transparent;
 }
 .socials .social-icon {
   width: 30px;
   height: 30px;
-  vertical-align: text-bottom;
+  margin-right: 4px;
 }
 
 /* raising hand icon */
@@ -95,4 +101,13 @@
 }
 .raising-hand--big {
   height: 2em;
+}
+
+.slide.black {
+  background: #333;
+  color: #fafafa;
+}
+.slide.black h2,
+.slide.black a {
+  color: #fafafa;
 }
