@@ -8,10 +8,8 @@
 
 /* intro slide */
 .slide.intro {
-  /*background: url(../images/corner-top-left.svg) no-repeat, url(../images/corner-bottom-right.svg) bottom right no-repeat;
-  background-size: 25%, 25%;*/
-  background: url(../images/announcement.png) no-repeat;
-  background-size: 100%;
+  background: url(../images/corner-top-left.svg) no-repeat, url(../images/corner-bottom-right.svg) bottom right no-repeat;
+  background-size: 25%, 25%;
   background-color: #fff;
 }
 .slide.intro h2 {
@@ -112,19 +110,4 @@
 .slide.black h2,
 .slide.black a {
   color: #fafafa;
-}
-.we-are, .company, .questions, .who-wants, .socials {
-  padding-top: 140px;
-}
-
-.we-are, .first-time, .company, .questions, .who-wants, .socials, .image-focusing {
-  background: url(../images/background.png) no-repeat;
-  background-size: 100%;
-  background-color: #fff;
-}
-
-.today {
-  background: url(../images/for-today.png) no-repeat;
-  background-size: 100%;
-  background-color: #fff;
 }

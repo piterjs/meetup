@@ -1,0 +1,36 @@
+.slide ul {
+  text-align: center;
+}
+
+.slide ul > li:before  {
+  content: '';
+}
+
+/* common slides styles */
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slide.striped {
+  background: url(../images/corner-top-left.svg) no-repeat, url(../images/corner-bottom-right.svg) bottom right no-repeat;
+  background-size: 25%, 25%;
+  background-color: #fff;
+  padding: 100px 120px 80px;
+}
+.slide.striped > h2 {
+  text-align: center;
+}
+
+/* projects slide */
+.slide.projects b {
+  color: #000000;
+  background-color: #F7DF1E;
+  padding: 2px 4px;
+}
+
+/* socials icons */
+.socials li {
+  justify-content: center;
+}
