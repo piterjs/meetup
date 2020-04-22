@@ -8,8 +8,10 @@
 
 /* intro slide */
 .slide.intro {
-  background: url(../images/corner-top-left.svg) no-repeat, url(../images/corner-bottom-right.svg) bottom right no-repeat;
-  background-size: 25%, 25%;
+  /*background: url(../images/corner-top-left.svg) no-repeat, url(../images/corner-bottom-right.svg) bottom right no-repeat;
+  background-size: 25%, 25%;*/
+  background: url(../images/announcement.png) no-repeat;
+  background-size: 100%;
   background-color: #fff;
 }
 .slide.intro h2 {
@@ -110,4 +112,33 @@
 .slide.black h2,
 .slide.black a {
   color: #fafafa;
+}
+
+.who-wants, .socials {
+  padding-top: 120px;
+}
+
+.we-are h2, .slide.company h2, .questions h2, {
+  text-align: center;
+  padding-top: 250px;
+  margin-top: 250px;
+}
+
+.we-are, .first-time, .company, .today .questions, .who-wants, .socials, .image-focusing, .bg {
+  background: url(../images/background.png) no-repeat;
+  z-index: 2;
+  background-size: 100%;
+  background-color: #fff;
+}
+
+.holy {
+  background: url(../images/holy.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-color: #000;
+}
+
+.qr {
+  display: flex;
+  flex-direction: column;
 }
