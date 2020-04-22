@@ -113,18 +113,32 @@
 .slide.black a {
   color: #fafafa;
 }
-.we-are, .company, .questions, .who-wants, .socials {
-  padding-top: 140px;
+
+.who-wants, .socials {
+  padding-top: 120px;
 }
 
-.we-are, .first-time, .company, .questions, .who-wants, .socials, .image-focusing {
+.we-are h2, .slide.company h2, .questions h2, {
+  text-align: center;
+  padding-top: 250px;
+  margin-top: 250px;
+}
+
+.we-are, .first-time, .company, .today .questions, .who-wants, .socials, .image-focusing, .bg {
   background: url(../images/background.png) no-repeat;
+  z-index: 2;
   background-size: 100%;
   background-color: #fff;
 }
 
-.today {
-  background: url(../images/for-today.png) no-repeat;
-  background-size: 100%;
-  background-color: #fff;
+.holy {
+  background: url(../images/holy.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-color: #000;
+}
+
+.qr {
+  display: flex;
+  flex-direction: column;
 }

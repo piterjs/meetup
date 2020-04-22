@@ -7,8 +7,11 @@
 .slide .place.right {
   margin-right: 25px;
 }
+.slide .place.right.text {
+  margin-right: 250px;
+}
 .slide .place.left {
-  margin-left: 25px;
+  margin-left: 80px;
 }
 .slide .place.top {
   margin-top: 25px;

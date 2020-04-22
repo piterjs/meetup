@@ -32,6 +32,18 @@
   font-size: 60px;
 }
 
+.slide h3 {
+  font-family: "Fira Sans", "Verdana", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 5px;
+}
+
+.slide h2.center {
+  margin-top: 170px;
+  text-align: center;
+}
+
 .slide li:before {
   color: var(--color-brand);
 }
